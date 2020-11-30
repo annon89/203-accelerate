@@ -621,7 +621,7 @@ a.button, a.button:link {
 	padding-top: 2em;
 	margin-bottom: 4em;
 }
-.site-footer, .site-footer p, .site-footer a {
+.site-footer, .site-footer p {
     color: #909090;
     font-size: .9em;
     line-height: 1.5;
