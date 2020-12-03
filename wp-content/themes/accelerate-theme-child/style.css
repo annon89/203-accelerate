@@ -148,13 +148,158 @@ Text Domain:  accelerate-theme-child
 /* footer styles */
 
 .social-media-navigation li {
-	color: white;
+	align-items: center;	
 	background-color: #3b3b3b;
-	padding: 5px;
 	border-radius: 50%;
-	height: 30px;
-	width: 30px;
+	color: white;	
+	display: inline-flex;	
 	float: right;
-	list-style: none;
+	height: 30px;
+	justify-content: center;	
+	list-style: none;		
 	margin-left: 10px;
+	width: 30px;
 }
+
+/* ninja forms styles */
+
+#contact .main-content {
+	width: 70%;
+	margin: auto;
+}
+
+#contact h2 {
+	font-size: 25px;
+}
+
+.field-wrap label {
+	font-size: 14px !important;
+}
+
+.nf-form-fields-required {
+  display: none;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+.ninja-forms-field {
+	background: white !important;
+}
+
+.nf-form-content input[type=button] {
+	background: #45ac9d !important;
+	float: right;
+	height: 55px !important;
+	width: 205px !important;
+}
+
+/* about page styles */
+
+.about-header {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 100px 185px;
+	text-align: center;
+	width: 100%;
+}
+
+.about-header h1 {
+	color: white;
+	font: 600 1.25em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+.our-services {
+	text-align: center;
+	margin: auto;
+	padding-bottom: 75px;
+	width: 100%;
+}
+
+.our-services h2 {
+	font-size: .9em;
+	text-transform: uppercase;
+}
+
+.service {
+	align-items: center;	
+	display: inline-flex;
+	gap: 50px;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.service img {
+	height: 215px;
+	width: 215px;
+}
+
+.service h3 {
+	color: black;
+	font: 600 1.5em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+.work-with-us {
+	align-items: center;
+	border-top: 1px solid #bfbfbf;
+	display: flex;
+	padding: 50px 80px;
+}
+
+.work-with-us h2 {
+	font-size: 1.5em;
+	line-height: 0;
+}
+
+.work-with-us .button {
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+
+/* 404 error styles */
+
+#error-page {
+    background: url("img/taxi-joshua-rodriguez.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: auto;
+    padding: 60px 75px 100px 75px;
+	text-align: center;
+	width: 100%;
+}
+
+.error-box {
+	background-color: rgba(0, 0, 0, 0.5);
+	clear: both;
+	height: 500px;
+	width: 350px;
+}
+
+.error-content {
+	color: rgba(255, 255, 255, 1.0);
+	padding: 10px;
+}
+
+.error-content h1 {
+	color: #45ac9d;
+	font-family: 'Pacifico', cursive;
+	font-size: 2.5em;
+}
+
+.error-content p {
+	color: white;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+#error-page .button {
+	display: inline-block;
+	margin: 30px 0;
+	width: auto;
+}
+
+
+/* Twitter sidebar styles */
